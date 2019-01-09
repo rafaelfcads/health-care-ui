@@ -1,6 +1,7 @@
 export default {
     user: {
-      name: ''
+      name: '',
+      email: ''
     },
     users: []
   }
