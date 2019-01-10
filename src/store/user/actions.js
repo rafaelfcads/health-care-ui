@@ -1,4 +1,4 @@
 export const findAll = ({ state, commit }, data) => {
-    const users = []
+    const users = data.users
     commit('users', users)
 }
