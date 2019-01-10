@@ -1,12 +1,27 @@
 <template>
-    <h1>{{ msg }}</h1>
+  <v-app>
+    <v-toolbar app>
+      <v-toolbar-title class="headline text-uppercase">
+        <span><a href="/">Health Care UI</a></span>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn flat href="https://google.com">
+        <span class="mr-2">Google</span>
+      </v-btn>
+    </v-toolbar>
+
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+
+  </v-app>
 </template>
 
 <script>
 export default {
   name: 'Home',
-  props: {
-    msg: String
+  data() {
+    return {}
   }
 }
 </script>
