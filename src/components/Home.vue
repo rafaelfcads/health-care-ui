@@ -2,12 +2,8 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span><a href="/">Health Care UI</a></span>
+        <span><a href="/contacts">Health Care UI</a></span>
       </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn flat href="https://google.com">
-        <span class="mr-2">Google</span>
-      </v-btn>
     </v-toolbar>
 
     <v-content>
